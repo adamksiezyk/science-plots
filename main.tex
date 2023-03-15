@@ -1,0 +1,112 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{lipsum}
+
+\title{Plots}
+\author{Adam Księżyk}
+\date{March 2023}
+
+\begin{document}
+
+\maketitle
+\clearpage
+
+\section{Default plot}
+\lipsum[1]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\textwidth]{images/plot1.png}
+    \caption{PNG}
+    \label{fig:plot_1}
+\end{figure}
+\clearpage
+
+\section{Vector plot}
+\lipsum[2-3]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\textwidth]{images/plot2.pdf}
+    \caption{Vector plot}
+    \label{fig:plot_2}
+\end{figure}
+\clearpage
+
+\section{Styled plot}
+\lipsum[4]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\textwidth]{images/plot3.pdf}
+    \caption{Plot styled}
+    \label{fig:plot_3_textwidth}
+\end{figure}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{images/plot3.pdf}
+    \caption{Plot width adjusted}
+    \label{fig:plot_3}
+\end{figure}
+
+Text width: \the\textwidth.
+\clearpage
+
+\section{Resized plot}
+\lipsum[5]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{images/plot4.pdf}
+    \caption{Plot resized}
+    \label{fig:plot_4}
+\end{figure}
+\clearpage
+
+\section{Plot with adjusted padding}
+\lipsum[6]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{images/plot5.pdf}
+    \caption{Plot padding adjusted}
+    \label{fig:plot_5}
+\end{figure}
+\clearpage
+
+\section{Plot with adjusted tick direction}
+\lipsum[7]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{images/plot6.pdf}
+    \caption{Plot ticks adjusted}
+    \label{fig:plot_6}
+\end{figure}
+\clearpage
+
+\section{Plot with adjusted legend}
+\lipsum[8]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{images/plot7.pdf}
+    \caption{Plot legend adjusted}
+    \label{fig:plot_7}
+\end{figure}
+\clearpage
+
+\section{Plot seaborn style}
+\lipsum[10]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{images/plot9.pdf}
+    \caption{Plot seaborn style}
+    \label{fig:plot_9}
+\end{figure}
+\clearpage
+
+\section{Plot science style}
+\lipsum[11]
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{images/plot10.pdf}
+    \caption{Plot science style}
+    \label{fig:plot_10}
+\end{figure}
+\clearpage
+
+\end{document}
